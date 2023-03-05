@@ -13,6 +13,7 @@
 		FA0A678429B494F300A606CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0A678229B494F300A606CB /* Main.storyboard */; };
 		FA0A678629B494F400A606CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0A678529B494F400A606CB /* Assets.xcassets */; };
 		FA0A678929B494F400A606CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0A678729B494F400A606CB /* LaunchScreen.storyboard */; };
+		FA0A679229B4960200A606CB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A679129B4960200A606CB /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA0A678529B494F400A606CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA0A678829B494F400A606CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA0A678A29B494F400A606CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0A679129B4960200A606CB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FA0A677B29B494F300A606CB /* UserDefaults working */ = {
 			isa = PBXGroup;
 			children = (
+				FA0A679029B495D600A606CB /* View */,
 				FA0A677C29B494F300A606CB /* AppDelegate.swift */,
 				FA0A677E29B494F300A606CB /* SceneDelegate.swift */,
 				FA0A678029B494F300A606CB /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				FA0A678A29B494F400A606CB /* Info.plist */,
 			);
 			path = "UserDefaults working";
+			sourceTree = "<group>";
+		};
+		FA0A679029B495D600A606CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A679129B4960200A606CB /* LoginViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0A679229B4960200A606CB /* LoginViewController.swift in Sources */,
 				FA0A678129B494F300A606CB /* ViewController.swift in Sources */,
 				FA0A677D29B494F300A606CB /* AppDelegate.swift in Sources */,
 				FA0A677F29B494F300A606CB /* SceneDelegate.swift in Sources */,
@@ -297,6 +309,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +319,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,6 +338,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

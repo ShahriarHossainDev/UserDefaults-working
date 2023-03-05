@@ -16,12 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackGound" translatesAutoresizingMaskIntoConstraints="NO" id="qTa-Fp-w5d">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackGound" translatesAutoresizingMaskIntoConstraints="NO" id="YlH-EW-4VJ">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Defaults" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOR-uF-aTV">
-                                <rect key="frame" x="93.5" y="416" width="227" height="64"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="40"/>
+                                <rect key="frame" x="75" y="425" width="264.5" height="46.5"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="40"/>
                                 <color key="textColor" red="0.83529411764705885" green="0.85098039215686272" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -30,11 +30,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="FOR-uF-aTV" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="8fc-cJ-cNt"/>
-                            <constraint firstItem="qTa-Fp-w5d" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="EIG-wG-Bpf"/>
-                            <constraint firstItem="qTa-Fp-w5d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SCP-RX-SRG"/>
+                            <constraint firstAttribute="bottom" secondItem="YlH-EW-4VJ" secondAttribute="bottom" id="94r-6C-rhp"/>
                             <constraint firstItem="FOR-uF-aTV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ZYw-DE-bjX"/>
-                            <constraint firstItem="qTa-Fp-w5d" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="eYe-oh-wzn"/>
-                            <constraint firstAttribute="bottom" secondItem="qTa-Fp-w5d" secondAttribute="bottom" id="m3C-MT-dzx"/>
+                            <constraint firstItem="YlH-EW-4VJ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="qca-RG-Ak0"/>
+                            <constraint firstItem="YlH-EW-4VJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xNm-td-fLj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YlH-EW-4VJ" secondAttribute="trailing" id="zRw-gl-PBD"/>
                         </constraints>
                     </view>
                 </viewController>
